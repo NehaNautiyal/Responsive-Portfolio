@@ -166,16 +166,16 @@
   .img-title-1, .img-title-2, .img-title-3, .img-title-4, .img-title-5 {
     top: -90px;
     left: -235px;
-<<<<<<< HEAD
   }
 
-  .wrapper {
-    width: 1024px;
-  }
+  /* .wrapper { */
+    /* width: 1024px; */
+  /* } */
+  
   @media screen and (max-width: 980px) {
 
-    .wrapper {
-      width: 980px;
+    .wrapper, .header, .everything, .box-1, .box-2 {
+      width: 100%;
       margin: 0 auto;
     }
 
@@ -183,8 +183,8 @@
   
   @media screen and (max-width: 768px) {
 
-    .wrapper {
-      width: 768px;
+    .wrapper, .header, .everything, .box-1, .box-2 {
+      width: 100%;
       margin: 0 auto;
     }
 
@@ -192,8 +192,8 @@
   
     @media screen and (max-width: 680px) {
   
-      .wrapper {
-        width: 680px;
+      .wrapper, .header, .everything, .box-1, .box-2 {
+        width: 100%;
         margin: 0 auto;
       }
 
@@ -202,6 +202,3 @@
       }
 
     }
-=======
-  }
->>>>>>> 268cc7ebc5208fc90f0ccb1d1b07e8a4225a8ff7
