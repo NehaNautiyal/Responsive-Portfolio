@@ -38,7 +38,7 @@
       flex-direction: column;
   }
 
-  .everything {
+  .wrapper {
       flex: 1 0 auto;
   }
 
@@ -68,7 +68,7 @@
 
   }
 
-  header {
+  header, ul {
     height: 86px;  
     background: rgb(204, 198, 198);
   }
@@ -168,37 +168,80 @@
     left: -235px;
   }
 
-  /* .wrapper { */
-    /* width: 1024px; */
-  /* } */
   
   @media screen and (max-width: 980px) {
 
-    .wrapper, .header, .everything, .box-1, .box-2 {
+    .wrapper, header, .everything, .box-1, .box-2 {
       width: 100%;
       margin: 0 auto;
+    }
+
+    header {
+      background: plum;
+    }
+
+    a:link {
+      color: gray;
+      padding: 10px;
+      background: whitesmoke;
+    }
+
+    .heading-name {
+      background: plum;
+      width: 100%;
+      text-align: center;
     }
 
   }
   
   @media screen and (max-width: 768px) {
 
-    .wrapper, .header, .everything, .box-1, .box-2 {
+    .wrapper, header, .everything, .box-1, .box-2 {
       width: 100%;
       margin: 0 auto;
+    }
+
+    a:link {
+      color: gray;
+      padding: 10px;
+      background: whitesmoke;
+    }
+
+    header {
+      background: plum;
+    }
+
+    .heading-name {
+      width: 100%;
+      text-align: center;
     }
 
   }
   
     @media screen and (max-width: 680px) {
   
-      .wrapper, .header, .everything, .box-1, .box-2 {
+      .wrapper, header, .everything, .box-1, .box-2 {
         width: 100%;
         margin: 0 auto;
       }
 
-      .header {
+      header {
         position: static;
+        background: plum;
+        flex-shrink: 0;
+      }
+
+      li, a:link {
+        color: gray;
+        padding: 12.5px;
+        background: whitesmoke;
+        
+      }
+
+      .heading-name {
+        background: plum;
+        width: 100%;
+        margin-left: 70px;
       }
 
     }
