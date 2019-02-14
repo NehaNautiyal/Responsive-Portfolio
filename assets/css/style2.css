@@ -168,27 +168,45 @@
     left: -235px;
   }
 
-  
   @media screen and (max-width: 980px) {
 
-    .wrapper, header, .everything, .box-1, .box-2 {
+    
+
+  }
+
+  /*
+  @media screen and (max-width: 980px) {
+
+    .wrapper, header, footer, .box-2, .content {
       width: 100%;
       margin: 0 auto;
     }
 
     header {
       background: plum;
+      flex-shrink: 0;
+    }
+
+    .box-2 {
+      width: 100%;
+      margin-left: 5px;
+      margin-right: 5px;
     }
 
     a:link {
       color: gray;
       padding: 10px;
       background: whitesmoke;
+      margin: 0 auto;
     }
 
     .heading-name {
       background: plum;
       width: 100%;
+      text-align: center;
+    }
+    
+    h1 {
       text-align: center;
     }
 
@@ -196,33 +214,47 @@
   
   @media screen and (max-width: 768px) {
 
-    .wrapper, header, .everything, .box-1, .box-2 {
+    .wrapper, header, footer, .content {
       width: 100%;
-      margin: 0 auto;
+   margin: 0 auto;
+    }
+
+    .box-2 {
+      width: 100%;
+      margin-left: 5px;
+      margin-right: 5px;
     }
 
     a:link {
       color: gray;
       padding: 10px;
       background: whitesmoke;
+      margin: 0 auto;
     }
 
     header {
       background: plum;
+      flex-shrink: 0;
+      width: 100%;
     }
 
-    .heading-name {
+    .heading-name, footer {
       width: 100%;
       text-align: center;
     }
+
+    h1 {
+      text-align: center;
+    }
+    
 
   }
   
     @media screen and (max-width: 680px) {
   
-      .wrapper, header, .everything, .box-1, .box-2 {
+      .wrapper, header, footer, .content {
         width: 100%;
-        margin: 0 auto;
+     margin: 0 auto;
       }
 
       header {
@@ -231,10 +263,16 @@
         flex-shrink: 0;
       }
 
+      .box-2, .links {
+        width: 100%;
+        margin: 5px;
+      }
+
       li, a:link {
         color: gray;
-        padding: 12.5px;
+        padding: 10px;
         background: whitesmoke;
+        margin: 0 auto;
         
       }
 
@@ -244,4 +282,9 @@
         margin-left: 70px;
       }
 
+      h1 {
+        text-align: center;
+      }
+
     }
+    */
