@@ -169,8 +169,53 @@
   }
 
   @media screen and (max-width: 980px) {
+    h1, .links, .box-2 {
+      width: 100vh;
+    }
 
+    .links {
+      background: rgb(204, 198, 198);
+      margin-top: 0;
+    }
     
+    .box-2 {
+      margin: 5px;
+    }
+    
+
+  }
+
+  @media screen and (max-width: 768px) {
+    h1, .links, .box-2 {
+      width: 100vh;
+    }
+
+    .links {
+      background: rgb(204, 198, 198);
+      margin-top: 0;
+    }
+    
+    .box-2 {
+      margin: 5px;
+    }
+    
+
+  }
+
+  @media screen and (max-width: 640px) {
+
+    h1, .links, .box-2 {
+      width: 100vh;
+    }
+
+    .links {
+      background: rgb(204, 198, 198);
+      margin-top: 0;
+    }
+    
+    .box-2 {
+      margin: 5px;
+    }
 
   }
 
