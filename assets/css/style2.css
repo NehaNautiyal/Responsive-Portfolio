@@ -174,33 +174,47 @@
       margin: 5px 10px 5px 5px;
     }
     
+    .links {
+      width: 100vw;
+    }
 
   }
 
   @media screen and (max-width: 768px) {
      .box-2 {
-      width: 100vw;
-      margin: 5px;
+      width: 100%;
     }
-    
+     
+    .links {
+      width: 55%;
+      float: right;
+    }
 
   }
 
   @media screen and (max-width: 640px) {
 
-    h1, .links, .box-2 {
-      width: 100vw;
+    .heading-name, .links {
+      /* width: 100%; */
+      justify-content: center;
     }
 
-    .links {
-      /* background: rgb(204, 198, 198); */
-      margin-top: 0;
-      /* width: 100%; */
-    }
+    .heading-name {
+      width: 100vh;
+      margin-left: 20%;
+      background: plum;
     
-    .box-2 {
-      margin: 5px;
     }
+    .links {
+      background: rgb(204, 198, 198);
+      margin-top: 0;
+      width: 100%;
+    }
+     .box-2 {
+      width: 100%;
+    }
+
+
 
   }
 
