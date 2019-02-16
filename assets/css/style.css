@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/concrete_seamless.png");
+  background: url("../images/full-bloom.png");
 }
 
 * {
@@ -35,7 +35,7 @@ h2,
 h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: plum;
 }
 
 h1 {
@@ -58,9 +58,9 @@ h3 {
   width: 100%;
   margin: 0 0 30px;
   overflow: auto;
-  color: #ffffff;
-  background: #ffffff;
-  border-bottom: 2px solid #cccccc;
+  color: plum;
+  background: rgb(204, 198, 198);
+  border-bottom: 2px solid gray;
 }
 
 #logo {
@@ -71,10 +71,10 @@ h3 {
   font-size: 30px;
   font-weight: 700;
   line-height: 90px;
-  color: #ffffff;
+  color: gray;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: plum;
 }
 
 nav {
@@ -87,13 +87,23 @@ nav a {
   padding-left: 15px;
   margin-left: 15px;
   line-height: 18px;
-  color: #999;
+  color: purple;
+  font-weight: bolder;
   text-decoration: none;
   border-left: 1px solid #efefef;
 }
 
+a:hover {
+  background: purple;
+  color: white;
+}
+
 nav a:first-child {
   border-left: 0 none;
+}
+
+li {
+  list-style-type: none;
 }
 
 /* footer */
@@ -105,8 +115,8 @@ footer {
   color: #ffffff;
   color: #cccccc;
   text-align: center;
-  background: #666666;
-  border-top: 8px solid #4aaaa5;
+  background: gray;
+  border-top: 8px solid plum;
   height: 50px;
 }
 
@@ -164,7 +174,7 @@ h3, h2 {
   line-height: 30px;
   color: #ffffff;
   text-align: center;
-  background: #4aaaa5;
+  background: plum;
   border-bottom: 0;
 }
 
@@ -212,6 +222,45 @@ input[type=submit] {
   font-size: 18px;
   color: #ffffff;
   cursor: pointer;
-  background: #4aaaa5;
+  background: plum;
   border: 0 none;
+}
+
+@media screen and (max-width: 980px) {
+
+  .main-section {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  nav {
+    margin-right: 20px;
+  }
+
+  .work, img, h3 {
+    width: 40%;
+  }
+
+  .main-section {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  nav, #logo {
+    width: 100%;
+    text-align: center;
+  }
+
+  .main-section {
+    margin-top: 25px;
+  }
+ 
+  .work, img, h3 {
+    margin-left: 15%;
+    width: 65%;
+  }
+
 }
